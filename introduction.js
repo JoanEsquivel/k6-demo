@@ -64,3 +64,6 @@ export default function () {
 //   check(res, { 'status was 200': (r) => r.status == 200 });
 //   sleep(10);
 // }
+
+//? How to understand what are the results printed in the console?
+// Please check the following link, you'll find ALL the details of every single result: https://k6.io/docs/using-k6/metrics/
