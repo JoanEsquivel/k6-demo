@@ -69,4 +69,6 @@ export default function () {
 // Please check the following link, you'll find ALL the details of every single result: https://k6.io/docs/using-k6/metrics/
 
 //? How to interpret results?
-// K6 has an amazing blog post to review how it works. https://k6.io/blog/how-to-interpret-your-load-test-results/
+// K6 has an amazing blog post to review how it works.
+//1. https://k6.io/docs/get-started/results-output/ 
+//2. https://k6.io/blog/how-to-interpret-your-load-test-results/
