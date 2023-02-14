@@ -45,7 +45,8 @@ Test K6 using the following command:
 k6 run --duration 30s introduction.js
 ```
 
-
+## Resources
+API for learning purposes: https://test-api.k6.io/
 
 
 ## ✍️ Authors <a name = "authors"></a>
