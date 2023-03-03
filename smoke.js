@@ -22,6 +22,16 @@ export const options = {
   thresholds: {
     http_req_duration: ['p(99)<1500'], // 99% of requests must complete below 1.5s
   },
+
+  //k6 login cloud -t 4060058a77338bd7d88e6c112d01482dde030632befb2750f48b8ee121fe1f06
+  //k6 run -o cloud smoke.js if I want to send this to k6 cloud
+  ext: {
+    loadimpact: {
+      projectID: 3629234,
+      // Test runs with the same name groups test runs together
+      name: "Smoke demo"
+    }
+  }
 };
 
 const BASE_URL = 'https://test-api.k6.io';
